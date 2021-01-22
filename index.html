@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instaread- Key Insights from</title>
+	 <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
+
+<!--prarthana-->
+
+
+<!--prarthana-->
+
+
+<style>
+	.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300b' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+*{
+			margin:0px;
+			padding: 0px;
+		}
+		.ml6 {
+  position: relative;
+  font-weight:700;
+  font-size:40px;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;border-bottom: 1px solid #D5D4D4;;z-index: 99999;">
+  <a class="navbar-brand ml-5" href="#"><img src="https://instaread.co/images/instaread_logo_grey.svg" style="margin-left: 120px;" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNavAltMarkup">	
+    <div class="navbar-nav ml-auto" style="margin-right: 100px;">
+      <a class="nav-item nav-link " href="#" style="font-size:17px;margin-right:20px;">Discover</a>
+      <a class="nav-item nav-link " href="#"style="font-size:17px;margin-right:20px;">Search</a>
+      <a class="nav-item nav-link active" style="color: blue;font-size:17px;margin-right:20px;" href="#">Try Instaread</a>
+      <a class="nav-item nav-link" href="#"style="font-size:17px;margin-right:20px;">Login</a>
+      
+    </div>
+  </div>
+</nav>
+<!--Navbar-->
+<!--Front-->
+<div class="row"style="background-color:#F9F9F9;" >
+	<div class="offset-md-1" ></div>
+	<div class=" col-md-5">
+		<img src="headphone.png" alt="">
+	</div>
+	<div class="col-md-4" style="margin-top: 50px;">
+		<div class="row" style="margin-left: 50px;">
+		<h1 class="ml6">
+  <span class="text-wrapper">
+    <span class="letters">Stay Curious</span>
+  </span>
+</h1>
+<script>
+	var textWrapper = document.querySelector('.ml6 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>	
+			
+		<h6 style="font-size:21px;font-weight:450;">Enjoy access to bestselling book summaries<br>and premium content from our partners, all<br>available in 15-minute audio or text segments.</h6>
+		<br>
+		</div>
+		<br>
+		<button  type="" class="btn btn-primary btn-lg" style="margin-left:50px; width: 175px;">Try Instaread</button>
+		<div class="row">
+			<div class="offset-9"></div>
+			<div class="col-md-3"><img src="https://instaread.co/images/hero-coffee.jpg" style="width: 175px;height: 175px;margin-top: 200px; margin-left: -150px;" alt=""></div>
+		</div>
+	</div>
+	<div class=" col-md-2 ">
+		<img src="https://instaread.co/images/hero-plant.jpg" style="margin-top: -75px;position:relative;" alt="">
+	</div>
+</div>
+<!--Front-->
+<!--3 cheez-->
+<div class="container">
+<div class="row">
+	<div class="col-md-4"style="border-right: 1.5px solid #D5D4D4;text-align: center;" >
+		<img src="https://instaread.co/images/get_smarter.jpg" style="height: 100px;width: 100px" alt="">
+		<h3 style="font-weight: bold;">Get Smarter</h3>
+		<h6 style="font-weight:490;">Instantly unlock the knowledge contained<br><span >in the world's best books.</span></h6>
+		
+	</div>
+
+	<div class="col-md-4" style="text-align:right;border-right: 1.5px solid #D5D4D4;text-align: center;">
+		<img src="https://instaread.co/images/find_inspiration.jpg" style="height: 100px;width: 100px;" alt="">
+		<h3 style="font-weight: bold;">Find Inspiration</h3>
+		<h6 style="font-weight:490;">Get the best ideas from leading business<br>mavericks, health gurus, political pundits,<br><span >in the world's best books.</span></h6>
+	</div>
+
+	<div class="col-md-4" style="text-align:center;">
+		<img src="https://instaread.co/images/on_the_go.jpg" style="height: 100px;width: 100px;" alt="">
+		<h3 style="font-weight: bold;">On the go</h3>
+		<h6 style="font-weight:490;">Eyes on the road? Hands on the barbells?<br>No problem: all Instareads are converted<br><span>and trailblazing scientists.</span></h6>
+	</div>
+</div>	
+</div>
+
+<!--3 cheez-->
+<br><br><br><br>
+
+<!--Iphone-->
+<h1 style="text-align: center;font-size:35px;">Available in audio & text formats.</h1>
+<br>
+<div class="row" style="justify-content: center;">
+	
+	<img src="fullmobile.png" style="display: inline block;" alt="">
+</div>
+<!--Iphone-->
+
+<br><br><br>
+<!--Home model-->
+<h2 style="text-align:center;"><span style="font-weight:bold;">Mobile, tablet, and desktop.</span> <span style="font-weight: 450;">Unlimited access on <br>desktop, android-optimized mobile-web-app or iOS app</span></h2>
+<br>
+<div class="row" style="justify-content: center;">
+	<img src="fulllaptop.png" alt="">
+	
+</div>
+<br>
+<div  style="text-align: center;" >
+	<button type="" class="btn btn-primary btn-lg" style=" width: 175px;">Try Instaread</button>
+</div>
+<!--Home model-->
+<br><br><br><br>
+<!--Books Bundle-->
+
+<h2 style="text-align:center;"><span style="font-weight: bold;">More than 1,000 titles.</span> <span style="font-weight: 450;font-size:33px;">Let us <br> guide you through the world's <br>wisdom.</span></h2>
+<br>
+<div class="container">
+	<div class="row">
+		<div class="col-md-2"style="margin-left: 20px;">
+			<img src="the.png" alt="" style="width: 200px;height: 300px;">
+
+			<div style="margin-top:22px;margin-left: 10px;" >
+				<a href="#" style="color: black"><h6>The Ethical Slut</h6></a>
+			<h6 style="color: grey ;font-weight: 400;">Janet W. Hardy and </h6>
+			</div>
+		</div>
+
+		<div class="col-md-2"style="margin-left: 40px;">
+			<img src="port first.png" alt="" style="width: 200px;height: 300px;">
+			<div style="margin-top:22px;margin-left: 10px;" >
+				<a href="#" style="color: black"><h6>Profit First</h6></a>
+			<h6 style="color: grey ;font-weight: 400;">Mike Michalowicz </h6>
+			</div>
+		</div>
+
+		<div class="col-md-2"style="margin-left: 40px;">
+			<img src="howtalk.png" alt="" style="width: 200px;height: 300px;">
+			<div style="margin-top:22px;margin-left: 10px;">
+				<a href="#" style="color: black"><h6>How to Talk to Anyone</h6></a>
+			<h6 style="color: grey ;font-weight: 400;">Leil Lowndes</h6>
+			</div>
+		</div>
+		<div class="col-md-2"style="margin-left: 40px;">
+			<img src="the8.png" alt="" style="width: 200px;height: 300px;">
+			<div style="margin-top:22px;margin-left: 10px;" >
+				<a href="#" style="color: black"><h6>The 8th Habit</h6></a>
+			<h6 style="color: grey ;font-weight: 400;">Stephen R. Covey</h6>
+			</div>
+		</div>
+		<div class="col-md-2"style="margin-left: 40px;">
+			<img src="rich.png" alt="" style="width: 200px;height: 300px;">
+			<div style="margin-top:22px;margin-left: 10px;">
+				<a href="#" style="color: black"><h6 >Rich Dad Poor Dad</h6></a>
+			<h6 style="color: grey ;font-weight: 400;">Robert T. Kiyosaki </h6>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	<div class="row">
+		<div class="col-md-2"style="margin-left: 20px;">
+			<img src="howlead.png" alt="" style="width: 200px;height: 300px;">
+			<div style="margin-top:22px;margin-left: 10px;">
+			<a href="#" style="color: black"><h6>How to Lead</h6></a>	
+			<h6 style="color: grey ;font-weight: 400;">Dave Rubenstein</h6>
+			</div>
+		</div style="margin-top:22px;margin-left: 10px;">
+		<div class="col-md-2"style="margin-left: 40px;">
+			<img src="yournext.png" alt="" style="width: 200px;height: 300px;">
+			<div style="margin-top:22px;margin-left: 20px;">
+				<a href="#" style="color: black"><h6 >Your Next Five moves</h6></a>
+			<h6 style="color: grey ;font-weight: 400;">Patrick Bet-David</h6>
+			</div>
+		</div>
+		<div class="col-md-2"style="margin-left: 40px;">
+			<img src="never.png" alt="" style="width: 200px;height: 300px;">
+			<div style="margin-top:22px;margin-left: 10px;">
+				<a href="#" style="color: black"><h6>Never Chase Men</h6></a>
+			<h6 style="color: grey ;font-weight: 400;">Bruce Bryans</h6>
+			</div>
+		</div>
+		<div class="col-md-2"style="margin-left: 40px;">
+			<img src="theway.png" alt="" style="width: 200px;height: 300px;">
+			<div style="margin-top:22px;margin-left: 10px;">
+				<a href="#" style="color: black"><h6>The Way of the Supe</h6></a>
+			<h6 style="color: grey ;font-weight: 400;">David Deida</h6>
+			</div>
+		</div>
+		<div class="col-md-2"style="margin-left: 40px;">
+			<img src="burnout.png" alt="" style="width: 200px;height: 300px;">
+			<div style="margin-top:22px;margin-left: 20px;">
+				<a href="#" style="color: black"><h6 >Burnout</h6></a>
+			<h6 style="color: grey ;font-weight: 400;">Emily Nagoski and  </h6>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--Books Bundle-->
+<br><br>
+<!--6 cheez-->
+<div class="container">
+	<div class="row"style="border-bottom: 1.5px solid #D5D4D4 ;padding-bottom: 28px;" >
+		<div class="col-md-4" style="border-right: 1.5px solid #D5D4D4;text-align: center;">
+			<img src="https://instaread.co/images/business_economics.png" style="height: 100px;width: 100px;t" alt="">
+		<h3 style="margin-right: 70px;">Business & Economics</h3>
+		<h6 style="font-weight: 480">Cash in on advice from finance experts<br> <span >and entrepreneurs</span></h6>
+		<a href="https://instaread.co/discover/business-economics" >Explore <i class="fas fa-arrow-right"style="margin-left:10px;"></i></a>
+		</div>
+
+		<div class="col-md-4"style="border-right: 1.5px solid #D5D4D4;text-align: center;">
+			<img src="https://instaread.co/images/politics.png" style="height: 100px;width: 100px;" alt="">
+		<h3 style="">Politics</h3>
+		<h6 style="font-weight: 480">Get the lowdown on gossip from the<br> <span > Beltway and beyond.</span></h6>
+		<a href="https://instaread.co/discover/business-economics" >Explore <i class="fas fa-arrow-right"style="margin-left:10px;"></i></a>
+		</div>
+
+		<div class="col-md-4"style="text-align: center;" >
+			<img src="https://instaread.co/images/social_sciences.png" style="height: 100px;width: 100px;" alt="">
+		<h3 style="t">Social silence</h3>
+		<h6 style="font-weight: 480">Understanding human behavior has never<br> <span style="t"> been easier.</span></h6>
+		<a href="https://instaread.co/discover/business-economics">Explore <i class="fas fa-arrow-right"style="margin-left:10px;"></i></a>
+		</div>
+		<div ></div>
+		<br><br>
+	</div>
+	<br>
+	
+	<div class="row" >
+		<div class="col-md-4"style="border-right: 1.5px solid #D5D4D4;text-align: center;">
+			<img src="https://instaread.co/images/self_help.png" style="height: 100px;width: 100px;" alt="">
+		<h3 style="t">Self Help</h3>
+		<h6 style="font-weight: 480">Trying to get out of a rut? We'll show you <br> <span style="margin-left: 40px;">the fast track.</span></h6>
+		<a href="https://instaread.co/discover/business-economics" style="margin-left:70px;">Explore <i class="fas fa-arrow-right"style="margin-left:10px;"></i></a>
+		</div>
+
+		<div class="col-md-4"style="border-right: 1.5px solid #D5D4D4;text-align: center;">
+			<img src="https://instaread.co/images/history.png" style="height: 100px;width: 100px;t" alt="">
+		<h3 style="t">History</h3>
+		<h6 style="font-weight: 480">Skip the dusty stacks: we have the <br> <span style="t"> highlights</span></h6>
+		<a href="https://instaread.co/discover/business-economics" >Explore <i class="fas fa-arrow-right"style="margin-left:10px;"></i></a>
+		</div>
+		
+		<div class="col-md-4"style="text-align: center;">
+			<img src="https://instaread.co/images/health_fitness.png" style="height: 100px;width: 100px;t" alt="">
+		<h3 style="t">Helath & Fitness</h3>
+		<h6 style="font-weight: 480">Check out these tips for living longer and <br> <span style="t"> better.</span></h6>
+		<a href="https://instaread.co/discover/business-economics" >Explore <i class="fas fa-arrow-right"style="margin-left:10px;"></i></a>
+		</div>
+		<hr>
+	</div>
+</div>
+<!--6 cheez-->
+<br><br><br>
+<!--Forbes-->
+<div class="row" style="background-color:#f0fcfc";>
+	
+	<div class="container">
+		<br><br>
+		<div class="row">
+			<div class="col-md-3" style="text-align: right;">
+			<img src="https://instaread.co/images/featured_forbes.svg"style="height:30px;" alt="">
+		</div>
+		<div class="col-md-3"style="text-align: right;">
+			<img src="https://instaread.co/images/featured_cnet.svg" style="height:40px;" alt="">
+		</div>
+		<div class="col-md-3"style="text-align: right;">
+			<img src="https://instaread.co/images/featured_mashable.svg" style="height:20px;"alt="">
+		</div>
+		<div class="col-md-3"style="text-align: right;">
+			<img src="https://instaread.co/images/featured_tnw.svg"style="height:25px;" alt="">
+		</div>
+		</div>
+		<br><br>
+	</div>
+	<br><br><br><br>
+	
+</div>
+<!--Forbes-->
+<br><br>
+<!--Review-->
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="1500000">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+      	<div class="row">
+      		<div class="col-md-4" style="border-right: 1.5px solid #D5D4D4;">
+      			<p style="font-size: 17px">"Easy, simple, beautiful. Leaders Digest."</p>
+      			<h6 style="text-align: right;">- <b>Nicky Beaird</b></h6>
+      		</div>
+      		<div class="col-md-4"style="border-right: 1.5px solid #D5D4D4;">
+      			<p style="font-size: 17px">"This is the killer app for your smartphone and your life. With a deep and growing library of instantly available books (both new and old), one is both enabled and empowered to engage with the best thing about being human, learning to be the best you that you can be."</p>
+      			<h6 style="text-align: right;">- <b>Dennis7X</b></h6>
+      		</div>
+      		<div class="col-md-4">
+      			<p style="font-size: 17px">"I love staying on top of the best business reads but don't have the time or money to buy and read the actual books. I had no idea Instaread existed till a friend told me about it. It's been a month and I've read more books in Instaread than I have in the past year the 'old' way. My only feedback is that I want MORE books!!!"</p>
+      			<h6 style="text-align: right;">- <b>Mikester1983</b></h6>
+      		</div>
+      	</div>
+      </div>
+    </div>
+    <div class="carousel-item">
+     <div class="container">
+     	 <div class="row">
+      		<div class="col-md-4"style="border-right: 1.5px solid #D5D4D4;">
+      			<p style="font-size: 17px">"This is the killer app for your smartphone and your life. With a deep and growing library of instantly available books (both new and old), one is both enabled and empowered to engage with the best thing about being human, learning to be the best you that you can be."</p>
+      			<h6 style="text-align: right;">- <b>Dennis7X</b></h6>
+      		</div>
+      		<div class="col-md-4"style="border-right: 1.5px solid #D5D4D4;">
+      			<p style="font-size: 17px">"I love staying on top of the best business reads but don't have the time or money to buy and read the actual books. I had no idea Instaread existed till a friend told me about it. It's been a month and I've read more books in Instaread than I have in the past year the 'old' way. My only feedback is that I want MORE books!!!"</p>
+      			<h6 style="text-align: right;">- <b>Mikester1983</b></h6>
+      		</div>
+      		<div class="col-md-4">
+      			<p style="font-size: 17px">"This app is very easy to use and helpful to listen to the takeaways. Great for on-the-go while driving in your car or a long train/bus ride :). Highly recommend!"</p>
+      			<h6 style="text-align: right;">- <b>bryantilos</b></h6>
+      		</div>
+      	</div>
+     </div>
+      </div>
+
+
+    <div class="carousel-item">
+      <div class="container">
+      	<div class="row">
+      		
+      		
+      		<div class="col-md-4"style="border-right: 1.5px solid #D5D4D4;">
+      			<p style="font-size: 17px">"I love staying on top of the best business reads but don't have the time or money to buy and read the actual books. I had no idea Instaread existed till a friend told me about it. It's been a month and I've read more books in Instaread than I have in the past year the 'old' way. My only feedback is that I want MORE books!!!"</p>
+      			<h6 style="text-align: right;">- <b>Mikester1983</b></h6>
+      		</div>
+      		<div class="col-md-4"style="border-right: 1.5px solid #D5D4D4;">
+      			<p style="font-size: 17px">"This app is very easy to use and helpful to listen to the takeaways. Great for on-the-go while driving in your car or a long train/bus ride :). Highly recommend!"</p>
+      			<h6 style="text-align: right;">- <b>bryantilos</b></h6>
+      		</div>
+      		<div class="col-md-4">
+      			<p style="font-size: 17px">"Extracting the essence of a book, makes reading fast and easy. Learning is fun and and even easier to understand then the actual book at times. Recommended for those who have a lot of unread books lying around like I do because of a busy lifestyle."</p>
+      			<h6 style="text-align: right;">- <b>All I wanted was storage</b></h6>
+      		</div>
+      	</div>
+      </div>
+    </div>
+    
+    </div>
+ 
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+     <i  class="fas fa-chevron-circle-left" style="font-size:40px;color:#008be8;"></i>  
+       <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <i  class="fas fa-chevron-circle-right" style="font-size:40px;color:#008be8;"></i>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--Review-->
+<br><br>
+
+<!--Hand-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1">
+		<img src="https://instaread.co/images/get-started.png" alt="">	
+	</div>
+	<div class="col-md-8">
+		<div style="font-size: 22px"><strong>Get Started.</strong> Instaread is a special place on <br>the planet where you can learn.</div>
+	</div>
+	<div class="col-md-3">
+		<button type="" class="btn btn-primary btn-lg"style=" width:175px;" >Try Instaread</button>
+	</div>
+	</div>
+</div>
+<!--Hand-->
+<br><br>
+<hr>
+<!--Footer-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+		<h2 style="font-size: 22px;">Get Smarter in Minutes.</h2>
+		<p>Through audio & text formats.</p>
+		<br><br><br><br><br><br><br><br><br><br>
+		<a href="#"style="color: #8F95A3"><p>Terms of service | Privacy policy</p></a>
+		<p  style="color: #8F95A3;font-size: 12px ">Copyright © 2020 Shutter Up Inc. All rights reserved.</p>
+		
+	</div>
+
+	<div class="col-md-3">
+		<h4>Categories</h4>
+		<div style="text-align: left;">
+			<a class="" style="color: #8F95A3" href="#">New</a><br>
+			<a class="" style="color: #8F95A3"href="#">Popular</a><br>
+			<a class="" style="color: #8F95A3" href="#">Business & Economics</a><br>
+			<a class="" style="color: #8F95A3" href="#">Self-Help</a><br>
+			<a class="" style="color: #8F95A3" href="#">Politics</a><br>
+			<a class="" style="color: #8F95A3" href="#">The New York Times</a><br>
+			<a class="" style="color: #8F95A3" href="#">Harvard Business Review</a><br>
+			<a class="" style="color: #8F95A3" href="#">Instaread Originals</a><br>
+			<a class="" style="color: #8F95A3" href="#">Health & Fitness</a><br>
+			<a class="" style="color: #8F95A3" href="#">Fiction</a><br>
+			<a class="" style="color: #8F95A3" href="#">Daily Insights</a><br>
+			<a class="" style="color: #8F95A3" href="#">Science</a><br>
+			<a class="" style="color: #8F95A3" href="#">PoliticsReligion</a><br>
+			<a class="" style="color: #8F95A3" href="#">Sports & Recreation</a><br>
+			<a class="" style="color: #8F95A3" href="#">Biographies</a>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<h4>Company</h4>
+		<div>
+			<a class="" style="color: #8F95A3" href="#">Help & Contact</a><br>
+			<a class="" style="color: #8F95A3" href="#">Teams</a><br>
+			<a class="" style="color: #8F95A3" href="#">Articles</a><br>
+			<a class="" style="color: #8F95A3" href="#">The Nugget</a><br>
+			<a class="" style="color: #8F95A3" href="#">Subscription FAQs
+
+
+
+</a>
+		</div>
+
+	</div>
+	<div class="col-md-2"style="text-align: center;">
+		<i class="fab fa-twitter"style=" color:white; background-color:dodgerblue; border-radius: 50%; font-size: 30px; padding:10px;"></i>
+		<i class="fab fa-facebook-square" style=" color:white; background-color:dodgerblue; border-radius: 50%; font-size: 30px; padding:10px;"></i>
+		<i class="fab fa-instagram"style=" color:white; background-color:dodgerblue; border-radius: 50%; font-size: 30px; padding:10px;"></i>
+		<br><br>
+	<img src="apple.png" alt="">
+	<br>
+	<img src="play.png" alt="">
+	</div>
+	</div>
+</div>
+<!--Footer-->
+
+
+
+</body>
+</html>
